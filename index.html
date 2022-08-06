@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,73 +9,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <title>Registration Form</title>
 </head>
+
 <body>
-    <div class="form">
-        <form>
-        <div class="heading">
-            <h1>Registration Form</h1>
+    <div class="container">
+        <h1>Registration Form</h1>
+
+        <div class="form-container">
+
+
+            <form>
+                <div class="input-name">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="name" placeholder="First name">
+
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="name" placeholder="Last name">
+                    </span>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+
+                <div class="input-name">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Enter password">
+                </div>
+
+                <div class="input-name">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Confirm password">
+                </div>
+
+                <div class="input-name">
+                    <input type="radio" name="g1">
+                    <label>Male</label>
+
+                    <input type="radio" name="g1">
+                    <label>Female</label>
+
+                    <input type="radio" name="g1">
+                    <label>Other</label>
+                </div>
+
+
+                <div class="input-name">
+                    <select>
+                        <option value="country">Select your country</option>
+                        <option value="country">India</option>
+                        <option value="country">Japan</option>
+                        <option value="country">China</option>
+                        <option value="country">America</option>
+                    </select>
+
+                    <div class="tick"></div>
+                </div>
+
+                <div class="input-name">
+                    <input type="checkbox" class="check">
+                    <label>I accept the terms and conditions.</label>
+                </div>
+
+                <div class="input-name">
+                    <input type="submit" class="button" value="Register">
+
+                </div>
+
+
+
+            </form>
         </div>
-
-        <div class="name">
-            <i class="fa-solid fa-user"></i>
-            <input type="name" placeholder="First name">
-
-            <span>
-                <i class="fa-solid fa-user"></i>
-                <input type="name" placeholder="Last name">
-            </span>
-        </div>
-
-        <div class="email">
-            <i class="fa-solid fa-envelope"></i>
-            <input type="email" placeholder="Enter your email">
-        </div>
-
-        <div class="password">
-            <i class="fa-solid fa-lock"></i>
-            <input type="password" placeholder="Enter password">
-        </div>
-
-        <div class="password1">
-            <i class="fa-solid fa-lock"></i>
-            <input type="password" placeholder="Confirm password">
-        </div>
-
-        <div class="gender">
-           <input type="radio" name="g1">
-           <label>Male</label>
-
-           <input type="radio" name="g1">
-           <label>Female</label>
-
-           <input type="radio" name="g1">
-           <label>Other</label>
-        </div>
-
-
-        <div class="select">
-            <select>
-                <option value="country">Select your country</option>
-                <option value="country">India</option>
-                <option value="country">Japan</option>
-                <option value="country">China</option>
-                <option value="country">America</option>
-            </select>
-
-            <div class="tick"></div>
-        </div>
-
-        <div class="input">
-            <input type="checkbox" class="check">
-            <label>I accept the terms and conditions.</label>
-        </div>
-
-        <div class="input">
-            <input type="submit" class="button" value="Register">
-            
-        </div>
-
-    </form>  
     </div>
 </body>
+
 </html>
